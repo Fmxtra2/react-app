@@ -1,0 +1,21 @@
+.card {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 20px 20px 10px rgba(63, 0, 0, 0.451);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  /* top/bottom left/right */
+  padding: 0px 10px 30px 10px;
+}

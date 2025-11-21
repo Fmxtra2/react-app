@@ -1,0 +1,13 @@
+footer {
+  background-color: rgb(76, 1, 79);
+  color: rgb(7, 94, 1);
+  /* top/bottom, left/right */
+  /* top right bottom left */
+  padding: 70px 50px;
+  margin-top: 60px;
+}
+
+footer p {
+  font-size: 30px;
+  font-weight: 700;
+}

@@ -1,0 +1,6 @@
+.popular_grid {
+  /* makes grid with proportional spacing */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

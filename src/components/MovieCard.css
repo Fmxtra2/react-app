@@ -1,0 +1,26 @@
+.movie-card {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 20px 20px 10px rgba(63, 0, 0, 0.451);
+}
+
+.movie-card img {
+  width: 100%;
+}
+
+.movie-card p {
+  /* top/bottom left/right */
+  padding: 0px 10px 30px 10px;
+}
+
+.movie-card h3 {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-size: 20px;
+}

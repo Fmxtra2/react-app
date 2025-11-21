@@ -1,0 +1,14 @@
+header {
+  background-color: rgb(76, 1, 79);
+  color: rgb(7, 94, 1);
+  /* top/bottom, left/right */
+  /* top right bottom left */
+  padding: 100px 50px;
+  font-size: 20px;
+}
+
+header p {
+  color: rgb(7, 94, 1);
+  font-size: 15px;
+  font-weight: 700;
+}
