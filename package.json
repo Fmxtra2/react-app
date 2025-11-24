@@ -1,6 +1,6 @@
 {
-  "homepage": "https://fmxtra2.github.io/movie-listings",
-  "name": "candy-listings",
+  "homepage": "https://fmxtra2.github.io/react-app",
+  "name": "movie-listings",
   "private": true,
   "version": "0.0.0",
   "type": "module",

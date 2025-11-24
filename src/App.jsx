@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Hibernation Station</h1>
+        <h1>Hibernation Station NEW</h1>
         <p>
           Do you wanna know what movies are popular in real time? Looking for a
           new movie that has top ratings? Do you want to become one with your
