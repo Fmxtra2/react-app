@@ -4,9 +4,9 @@ import Candies from "./Candies.jsx";
 import CandyList from "./components/CandyList.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
-import Home from "./components/Home.jsx";
 import PopularList from "./components/PopularList.jsx";
 import TopRatedList from "./components/TopRatedList.jsx";
+import HomeList from "./components/HomeList.jsx";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/Home" element={<HomeList />} />
           <Route path="/popular" element={<PopularList />} />
           <Route path="/toprated" element={<TopRatedList />} />
           <Route path="/candy" element={<CandyList />} />

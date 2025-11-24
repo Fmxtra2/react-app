@@ -35,4 +35,4 @@ const HomeList = () => {
   );
 };
 
-export default Home;
+export default HomeList;
