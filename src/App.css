@@ -1,14 +1,15 @@
 header {
-  background-color: rgb(76, 1, 79);
-  color: rgb(7, 94, 1);
+  background-color: rgb(106, 31, 131);
+  color: rgb(83, 147, 185);
   /* top/bottom, left/right */
   /* top right bottom left */
-  padding: 100px 50px;
+  padding: 10px 50px;
   font-size: 20px;
 }
 
 header p {
-  color: rgb(7, 94, 1);
-  font-size: 15px;
+  padding: 30px;
+  color: rgb(95, 169, 212);
+  font-size: 25px;
   font-weight: 700;
 }

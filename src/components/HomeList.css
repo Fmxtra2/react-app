@@ -1,4 +1,4 @@
-.home_grid {
+.homelist_grid {
   /* makes grid with proportional spacing */
   display: flex;
   flex-wrap: wrap;

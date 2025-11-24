@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>Made By: Horror Queen Forrest Ratchford</p>
+      <p>Made By: Forrest Ratchford</p>
     </footer>
   );
 };

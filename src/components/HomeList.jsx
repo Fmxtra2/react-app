@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./Home.css";
+import "./HomeList.css";
+import MovieCard from "./MovieCard";
 
 // https://api.themoviedb.org/3/movie/now_playing?api_key=4ec5d6dd06dc8d5bdbb73e39826e945b //
 
@@ -26,7 +27,7 @@ const HomeList = () => {
   };
 
   return (
-    <div className="home_grid">
+    <div className="homelist_grid">
       {movies.map((movie) => (
         //console.log(candy.descrip);//
         <MovieCard key={movie.id} movie={movie} />

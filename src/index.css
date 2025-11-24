@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 
 body {
-  background-color: rgb(0, 76, 14);
+  background-color: rgb(124, 56, 147);
   color: white;
   text-align: center;
   font-family: "Metal Mania", system-ui;
@@ -16,11 +16,20 @@ body {
   margin: 0;
 }
 
-h1,
-h3 {
+h1 {
   font-family: "Rubik Wet Paint", system-ui;
   font-size: 150px;
   margin: 0;
   padding: 10px;
   box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.451);
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h3 {
+  font-family: "Rubik Wet Paint", system-ui;
 }
