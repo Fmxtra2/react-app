@@ -12,19 +12,20 @@ function App() {
   return (
     <>
       <header>
-        <h1>Shriek n' Chill</h1>
+        <h1>Hibernation Station</h1>
         <p>
-          Are you a horror fan? Do you enjoy unwinding with blood, guts, and
-          blood curdling screams? SO DO WE! Welcome to your list of popular and
-          top-rated horror movies! Grab your snacks, get comfy, and enjoy! Make
-          sure you grab a blanket if you need to hide!
+          Do you wanna know what movies are popular in real time? Looking for a
+          new movie that has top ratings? Do you want to become one with your
+          couch, bed, or chair?! Welcome to our App!! Check out what movies are
+          popular, top-rated or see what we have for concessions! Gotta have
+          snacks with your binge session!!
         </p>
       </header>
       <Navbar />
 
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/popular" element={<PopularList />} />
           <Route path="/toprated" element={<TopRatedList />} />
           <Route path="/candy" element={<CandyList />} />

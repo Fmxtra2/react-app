@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,16 +8,16 @@ const Navbar = () => {
       <ul>
         <li>
           {/* Load the default page with a slash */}
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/popular">Popular</a>
+          <Link to="/popular">Popular</Link>
         </li>
         <li>
-          <a href="/toprated">Top-Rated</a>
+          <Link to="/toprated">Top-Rated</Link>
         </li>
         <li>
-          <a href="/candy">Concession</a>
+          <Link to="/candy">Concession</Link>
         </li>
       </ul>
     </nav>
