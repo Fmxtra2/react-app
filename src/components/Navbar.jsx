@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul>
         <li>
           {/* Load the default page with a slash */}
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/popular">Popular</Link>

@@ -25,7 +25,7 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/home" element={<HomeList />} />
+          <Route path="/" element={<HomeList />} />
           <Route path="/popular" element={<PopularList />} />
           <Route path="/toprated" element={<TopRatedList />} />
           <Route path="/candy" element={<CandyList />} />
